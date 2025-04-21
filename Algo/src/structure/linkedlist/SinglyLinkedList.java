@@ -102,7 +102,7 @@ class SinglyLinkedList {
     }
 }
 
-public class SingllyLInkedList {
+class TestSinglyLinkedList {
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
 
