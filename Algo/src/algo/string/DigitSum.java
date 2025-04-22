@@ -1,3 +1,9 @@
+/*
+ * Sum of each digit present in a string
+ * O/P - ab13c43d2
+ * I/P - 1 + 3 + 4 + 3 + 2 = 13
+ */
+
 package algo.string;
 
 import java.util.Scanner;
