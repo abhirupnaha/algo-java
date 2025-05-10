@@ -21,6 +21,7 @@ class CountDistinctElem {
 
     // better implementation of getSize1()
     private int getSize11(Object[] arr) {
+        // Arrays.asList(arr) was possible because arr is array of Wrapper class Integer
         HashSet<Object> hs = new HashSet<>(Arrays.asList(arr));
         return hs.size();
     }

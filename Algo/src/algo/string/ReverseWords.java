@@ -33,7 +33,8 @@ class ReverseWords {
         while (j < chArr.length) {
             if (chArr[j] != ' ') {
                 i = j;
-                while ((j < chArr.length) && chArr[j] != ' ')
+                j ++;
+                while ((j < chArr.length) && (chArr[j] != ' '))
                     j ++;
                 ReverseWords.reverse(chArr, i, j - 1);
             }
